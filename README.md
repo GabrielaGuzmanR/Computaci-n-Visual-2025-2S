@@ -1,1 +1,1 @@
-# Computación-Visual-2025-2S
+# Computacion-Visual-2025-2S
