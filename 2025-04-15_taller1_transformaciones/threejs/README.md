@@ -4,8 +4,8 @@
 **Descripción**
 Este proyecto es una aplicación web que utiliza React Three Fiber para renderizar una escena 3D. Muestra un cubo naranja animado que realiza las siguientes transformaciones:
 
-Movimiento circular: El cubo se desplaza en una trayectoria circular en el plano XZ.
-Rotación: Gira sobre su propio eje Y.
+* Movimiento circular: El cubo se desplaza en una trayectoria circular en el plano XZ.
+* Rotación: Gira sobre su propio eje Y.
 Escalado: Cambia de tamaño de forma suave usando una función sinusoidal.
 
 **Tecnologías Utilizadas**
