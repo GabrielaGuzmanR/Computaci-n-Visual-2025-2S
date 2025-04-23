@@ -49,7 +49,7 @@ Abrir el proyecto: Abre tu navegador y ve a http://localhost:5173. Deberías ver
 
 **Estructura del Proyecto**
 
-src/main.jsx: Punto de entrada de la aplicación, configura el canvas y renderiza la escena.
-src/scene.jsx: Define el cubo animado y las transformaciones (movimiento, rotación, escalado).
-src/style.css: Estilos para asegurar que el canvas ocupe toda la pantalla.
-index.html: Plantilla HTML principal.
+* src/main.jsx: Punto de entrada de la aplicación, configura el canvas y renderiza la escena.
+* src/scene.jsx: Define el cubo animado y las transformaciones (movimiento, rotación, escalado).
+* src/style.css: Estilos para asegurar que el canvas ocupe toda la pantalla.
+* index.html: Plantilla HTML principal.
