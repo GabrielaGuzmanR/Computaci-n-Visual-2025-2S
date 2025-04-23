@@ -48,7 +48,9 @@ cd /Computacion-Visual-2025-2S/2025-04-15_taller1_transformaciones/python
 Copia el codigo en el archivo smiley_animation.ipynb en una celda de un Google Colab
 
 Instalar las dependencias:
+```bash
 pip install matplotlib numpy imageio
+```
 
 Ejecuta todas las celdas (Shift + Enter).
 
