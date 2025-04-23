@@ -1,37 +1,42 @@
 void setup() {
-  size(800, 600, P3D); // 3D canvas
-  background(200); // Light gray background
+  size(800, 600, P3D); // Crea un lienzo 3D de 800x600 píxeles
+  background(200); // Fondo inicial gris claro
 }
 
 void draw() {
-  background(200); // Clear frame with light gray
-  lights(); // Add basic lighting for 3D effect
+  // Fondo dinámico que cambia suavemente con el tiempo
+  float r = 150 + 50 * sin(radians(frameCount)); // R entre 100 y 200
+  float g = 150 + 50 * cos(radians(frameCount)); // G entre 100 y 200
+  background(r, g, 200); // Fondo dinámico con tonos grises y azulados
   
-  // Center the cube in the canvas
+  lights(); // Iluminación básica para el cubo 3D
+  
+  // Centrar el cubo en el lienzo
   translate(width/2, height/2, 0);
   
-  // Wave-like translation using sin()
-  float tx = 100 * sin(radians(frameCount)); // Move along X
-  float ty = 50 * cos(radians(frameCount)); // Move along Y
-  float tz = 50 * sin(radians(frameCount * 2)); // Move along Z
+  // Movimiento ondulado usando sin() y cos()
+  float tx = 100 * sin(radians(frameCount)); // Traslación en X
+  float ty = 50 * cos(radians(frameCount)); // Traslación en Y
+  float tz = 50 * sin(radians(frameCount * 2)); // Traslación en Z
   
-  // Cyclic scaling
-  float s = 1 + 0.5 * sin(radians(frameCount * 3)); // Scale between 0.5 and 1.5
+  // Escalado cíclico entre 0.5 y 1.5
+  float s = 1 + 0.5 * sin(radians(frameCount * 2)); // Reduje el factor de 3 a 2
   
-  // Isolate transformations with pushMatrix/popMatrix
+  // Aislar transformaciones
   pushMatrix();
   
-  // Apply transformations
-  translate(tx, ty, tz); // Wave-like motion
-  rotateX(radians(frameCount * 2)); // Rotate around X axis
-  rotateY(radians(frameCount * 3)); // Rotate around Y axis
-  scale(s); // Cyclic scaling
+  // Aplicar transformaciones
+  translate(tx, ty, tz); // Movimiento ondulado
+  rotateX(radians(frameCount * 1)); // Rotación en X (más lenta)
+  rotateY(radians(frameCount * 1.5)); // Rotación en Y (más lenta)
+  rotateZ(radians(frameCount * 0.5)); // Rotación en Z (nueva)
+  scale(s); // Escalado cíclico
   
-  // Draw the cube
-  fill(255, 204, 0); // Yellow-orange fill
-  stroke(0); // Black outline
-  strokeWeight(2);
-  box(100); // Cube with side length 100
+  // Dibujar el cubo
+  fill(255, 204, 0); // Color amarillo-naranja
+  stroke(0); // Contorno negro
+  strokeWeight(2); // Grosor del contorno
+  box(100); // Cubo de 100 unidades de lado
   
   popMatrix();
 }
