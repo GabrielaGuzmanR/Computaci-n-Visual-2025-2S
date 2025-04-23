@@ -2,7 +2,7 @@
 # 3D con React Three Fiber: Cubo Animado
 
 **Descripción**
-Este proyecto es una aplicación web que utiliza React Three Fiber para renderizar una escena 3D. Muestra un cubo naranja animado que realiza las siguientes transformaciones:
+Se uiliza React Three Fiber para renderizar una escena 3D. Muestra un cubo naranja animado que realiza las siguientes transformaciones:
 
 * Movimiento circular: El cubo se desplaza en una trayectoria circular en el plano XZ.
 * Rotación: Gira sobre su propio eje Y.
