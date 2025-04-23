@@ -25,29 +25,29 @@ npm: Para instalar las dependencias.
 Sigue estos pasos para ejecutar el proyecto localmente:
 
 Clonar el repositorio:
-bash '''
-git clone https://github.com/tu-usuario/tu-repositorio.git
-'''
+```bash
+git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/GabrielaGuzmanR/Computacion-Visual-2025-2S.git)
+```
 
 Navegar a la carpeta del proyecto:
-bash '''
-cd tu-repositorio/2025-04-15_taller1_transformaciones/threejs
-'''
+```bash
+cd /Computacion-Visual-2025-2S/2025-04-15_taller1_transformaciones/threejs
+```
 
 Instalar las dependencias:
-bash '''
+```bash
 npm install
-'''
+```
 
 Iniciar el servidor de desarrollo:
-bash '''
+```bash
 npm run dev
-'''
+```
 
 Abrir el proyecto: Abre tu navegador y ve a http://localhost:5173. Deberías ver un cubo naranja animado en una escena 3D.
 
 
-#Estructura del Proyecto
+**Estructura del Proyecto**
 
 src/main.jsx: Punto de entrada de la aplicación, configura el canvas y renderiza la escena.
 src/scene.jsx: Define el cubo animado y las transformaciones (movimiento, rotación, escalado).
