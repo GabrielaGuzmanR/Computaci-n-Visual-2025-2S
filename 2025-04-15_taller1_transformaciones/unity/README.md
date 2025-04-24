@@ -1,4 +1,4 @@
-##Proyecto en Unity: Animación de un Cubo 3D con Transformaciones
+## Proyecto en Unity: Animación de un Cubo 3D con Transformaciones
 
 **Descripción**
 Este proyecto es un proyecto en Unity (versión LTS) que crea una escena 3D básica con un cubo animado. El cubo aplica tres transformaciones en tiempo real: traslación aleatoria en los ejes X o Y cada 2 segundos, rotación constante en los tres ejes (X, Y, Z), y escalado oscilante que varía con el tiempo. Las transformaciones se implementan usando las funciones transform.Translate(), transform.Rotate(), y transform.localScale, como se requería en el taller.
