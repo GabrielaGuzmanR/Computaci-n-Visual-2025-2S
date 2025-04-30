@@ -15,10 +15,17 @@ Este taller implementa segmentación semántica utilizando **Segment Anything Mo
 
 ### Máscaras Generadas
 - Máscara 0 (Contorno rojo):
+  
 ![mask_colored_0](https://github.com/user-attachments/assets/c0e24c18-9005-4151-bc92-8032fc3e29c3)
+
+
 - Máscara 1 (Contorno verde):
+  
 ![mask_colored_1](https://github.com/user-attachments/assets/2312dbc3-6120-4ee7-908f-e14350311f0a)
-- Máscara 2 (Contorno azul): 
+
+
+- Máscara 2 (Contorno azul):
+  
 ![mask_colored_2](https://github.com/user-attachments/assets/0d4637c8-b0d4-411c-8f8e-3dd8a6cc4ead)
 
 
